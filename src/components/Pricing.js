@@ -16,7 +16,7 @@ const Pricing = () => {
     <p>- JavaScript -</p>
     <p>- TypeScript -</p>
     <p>- TYPE -</p>
-    <Link to="./contact" className="btn">Know More.</Link>
+    <Link to="/contact" className="btn">Know More.</Link>
     </div>
     <div className="card">
     <h3>- Framework and Libraries -</h3>
@@ -26,7 +26,7 @@ const Pricing = () => {
     <p>- jQuery -</p>
     <p>- Bootstrap -</p>
     <p>- Express.js -</p>
-    <Link to="./contact" className="btn">Know More</Link>
+    <Link to="/contact" className="btn">Know More</Link>
     </div>
     <div className="card">
     <h3>- Other Skills -</h3>
@@ -36,7 +36,7 @@ const Pricing = () => {
     <p>- Version Control(Git) -</p>
     <p>- Netlify -</p>
     <p>- Stripe -</p>
-    <Link to="./contact" className="btn">Know More</Link>
+    <Link to="/contact" className="btn">Know More</Link>
     </div>
     </div>
       
