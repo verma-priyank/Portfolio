@@ -4,15 +4,15 @@ import React from 'react'
 const Form = () => {
   return (
     <div className="form">
-    <form action="">
+    <form action="https://formspree.io/f/mdovkjvk" method="POST">
     <label >Your Name</label>
-    <input type="text" />
+    <input type="text" name="Your Name"/>
     <label >Email</label>
-    <input type="email" />
+    <input type="email" name="email" />
     <label >Subject</label>
-    <input type="text" />
+    <input type="text" name="subject"/>
     <label >Message</label>
-    <textarea rows="6" placeholder="Type Your Message" />
+    <textarea rows="6" placeholder="Type Your Message" name="message" />
     <button className="btn">Submit</button>
     </form>
     </div>

@@ -5,36 +5,38 @@ import React from 'react'
 const Pricing = () => {
   return (
     <div className="pricing">
+    <h1 className="skills">Skills</h1>
     <div className="card-container">
+    
     <div className="card">
-    <h3>- Basic -</h3>
+    <h3>- Languages -</h3>
     <span className="bar"></span>
-    <p className="btc">$100</p>
-    <p>- 3 days -</p>
-    <p>- 3 Days -</p>
-    <p>- Featured -</p>
-    <p>- Responsive Design -</p>
-    <Link to="./contact" className="btn">PURCHASE NOW</Link>
+    <p className="">- HTML -</p>
+    <p>- CSS -</p>
+    <p>- JavaScript -</p>
+    <p>- TypeScript -</p>
+    <p>- TYPE -</p>
+    <Link to="./contact" className="btn">Know More.</Link>
     </div>
     <div className="card">
-    <h3>- Premium -</h3>
+    <h3>- Framework and Libraries -</h3>
     <span className="bar"></span>
-    <p className="btc">$200</p>
-    <p>- 2 days -</p>
-    <p>- 5 Days -</p>
-    <p>- Featured -</p>
-    <p>- Responsive Design -</p>
-    <Link to="./contact" className="btn">PURCHASE NOW</Link>
+    <p className="">- React.Js -</p>
+    <p>- Redux -</p>
+    <p>- jQuery -</p>
+    <p>- Bootstrap -</p>
+    <p>- Express.js -</p>
+    <Link to="./contact" className="btn">Know More</Link>
     </div>
     <div className="card">
-    <h3>- Business -</h3>
+    <h3>- Other Skills -</h3>
     <span className="bar"></span>
-    <p className="btc">$300</p>
-    <p>- 5 days -</p>
-    <p>- 8 Days -</p>
-    <p>- Featured -</p>
-    <p>- Responsive Design -</p>
-    <Link to="./contact" className="btn">PURCHASE NOW</Link>
+    <p className="">- Firebase -</p>
+    <p>- Wordpress -</p>
+    <p>- Version Control(Git) -</p>
+    <p>- Netlify -</p>
+    <p>- Stripe -</p>
+    <Link to="./contact" className="btn">Know More</Link>
     </div>
     </div>
       

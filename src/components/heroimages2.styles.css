@@ -37,3 +37,8 @@
         font-size: 2rem;
     }
 }
+@media screen and (max-width:1000px){
+    .hero{
+        height: 602px;
+    }
+}

@@ -12,6 +12,7 @@ const Project = () => {
       
       <Heroimage2 heading="PROJECTS." text="Some of the most recent works"/>
       <Work />
+      
       <Pricing />
       <Footer />
     </div>
