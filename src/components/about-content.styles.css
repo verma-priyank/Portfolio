@@ -47,3 +47,16 @@
         
         z-index: 5;
     }
+    .right .top:hover{
+        transform: scale(1.5);
+        transition: all 0.4s ease
+        
+    }
+    .right .bottom:hover{
+        transform: scale(1.2);
+        
+        z-index: 10;
+        transition: all 0.4s ease;
+        
+        
+    }
