@@ -7,7 +7,7 @@ const ProjectCardData =[
         imgsrc : pro1,
         title:"E-Commerce Website",
         text:"It is A E-Commerce Website in which i provided cart , navigation ,sign-in ,sign-out and firebase and also setup a payment gateway and deployed on netlify",
-        View :"https://lovely-pasca-4e9ce1.netlify.app/",
+        View :"https://my-crown-clothing-shop.netlify.app/",
         source:"https://github.com/verma-priyank/crown-clothing"
     },
     {

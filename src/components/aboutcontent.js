@@ -15,11 +15,11 @@ const Aboutcontent = () => {
     </div>
     <div className="right">
     <div className="img-container">
-    <div className="img-stack top"> <a href="https://lovely-pasca-4e9ce1.netlify.app/checkout" target="_blank" rel="noreferrer">
-    <img src={pro4} className="img" alt="About" /></a>
+    <div className="img-stack top"> 
+    <img src={pro4} className="img" alt="About" />
     </div>
-    <div className="img-stack bottom"><a href="https://lovely-pasca-4e9ce1.netlify.app/auth" target="_blank" rel="noreferrer">
-    <img src={pro3} className="img" alt="About" /></a>
+    <div className="img-stack bottom">
+    <img src={pro3} className="img" alt="About" />
     </div>
     </div>
       

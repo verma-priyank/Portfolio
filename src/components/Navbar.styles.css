@@ -18,6 +18,7 @@
 }
 .nav-menu li{
     padding: 0 1rem;
+    list-style: none;
 }
 .hamburger{
     display: none;
