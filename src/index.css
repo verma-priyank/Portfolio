@@ -33,3 +33,19 @@ h1 , h4 , p ,a{
   color: #fff;
   transition: 0.3s;
 }
+.projectsInfo{
+  display: block;
+    width: 20%;
+    margin: 0px auto 1rem auto;
+    
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.projectsInfo:hover{
+  color: blue;
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+

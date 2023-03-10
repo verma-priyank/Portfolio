@@ -3,7 +3,7 @@ import React from 'react'
 
 import ProjectCardData from "./work-card-data"
 import WorkCards from "./work-cards"
-const Work = () => {
+const Workhome = () => {
 
 const data = ProjectCardData.filter((item , index) => index <3 )
    console.log(data) 
@@ -11,7 +11,7 @@ const data = ProjectCardData.filter((item , index) => index <3 )
     <div className="work-container">
     <h1 className="project-heading"> Projects</h1>
     <div className="project-container">
-    {ProjectCardData.map((data , index)=>{
+    {data.map((data , index)=>{
         return (<WorkCards items={data} key={index} /> )
     })}
     </div>
@@ -20,4 +20,4 @@ const data = ProjectCardData.filter((item , index) => index <3 )
   )
 }
 
-export default Work ;
+export default Workhome ;

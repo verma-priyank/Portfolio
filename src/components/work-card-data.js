@@ -2,6 +2,7 @@ import pro1 from "../assests/pro1.jpeg"
 import pro2 from "../assests/pro2.jpeg"
 import pro5 from "../assests/pro5.jpeg"
 import pro7 from "../assests/pro7.jpeg"
+import pro6 from "../assests/pro6.jpeg"
 const ProjectCardData =[
 
     {
@@ -10,6 +11,13 @@ const ProjectCardData =[
         text:"It is A E-Commerce Website in which i provided cart , navigation ,sign-in ,sign-out and firebase and also setup a payment gateway and deployed on netlify.",
         View :"https://my-crown-clothing-shop.netlify.app/",
         source:"https://github.com/verma-priyank/crown-clothing"
+    },
+    {
+        imgsrc : pro6,
+        title:"Firebase Chat Application",
+        text:"It is Chat application name Meet Box . This app is baked by firebase/firestore to handle realtime database.the authentication is also handles by firebase email provider.",
+        View :"https://meet-box.netlify.app/",
+        source:"https://github.com/verma-priyank/firebase-chat-app"
     },
     {
         imgsrc : pro7,
